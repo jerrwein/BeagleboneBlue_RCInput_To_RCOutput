@@ -141,8 +141,8 @@ int main(int argc, char **argv, char **envp)
 
 	printf("Alta-RCInput_PRU::init() PRU memory map complete.\n");
 
-	uint32_t loops = 250000;
-	while(loops--)
+//	uint32_t loops = 250000;
+	while(1)
 	{
 		usleep (5000);
 		timer_tick();
